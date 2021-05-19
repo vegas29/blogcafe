@@ -1,84 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDelCafe</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-    <!--Favicon-->
-    <title>Blog de Cafe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    <header class="header">
 
-    <header class="site-header">
         <div class="contenedor">
             <div class="barra">
-                <a href="/">
-                    <h1 class="no-margin">Blog<span>DelCafe</span></h1>
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DelCafe</span></h1>
                 </a>
+
                 <nav class="navegacion">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="cursos.html">Cursos</a>
-                    <a href="contacto.html">Contacto</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                 </nav>
             </div>
-            <!--Cierre barra-->
-
-            <div class="texto-header">
-                <h2 class="no-margin">Blog de Cafe con consejos y cursos</h2>
-                <p class="no-margin">Aprende de los expertos con las mejoes recetas y consejos</p>
-            </div>
         </div>
-        <!--Cierre contenedor-->
+        <div class="header__texto">
+            <h2 class="no-margin">Blog del Cafe con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
     </header>
 
     <main class="contenedor">
-        <h2 class="centrar-texto">
-            Sobre nosotros
-        </h2>
-        <div class="grid">
-            <div class="columna-6">
-                <img src="img/nosotros.jpg" alt="Imagen nosotros">
-            </div>
-            <div class="columna-6">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices mi dolor, vitae tincidunt odio molestie at. Donec consectetur feugiat interdum. Quisque pulvinar felis a tortor fringilla consectetur. Class aptent taciti sociosqu ad litora
-                    torquent per conubia nostra, per inceptos himenaeos. Vestibulum tristique felis enim, vel semper orci fermentum at. Aliquam rutrum, nibh sed ultricies fringilla, nunc lorem accumsan urna, in hendrerit erat metus luctus nunc. Morbi
-                    mollis enim ut ligula laoreet pulvinar.
-                </p>
+        <h3>Sobre Nosotros</h3>
 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices mi dolor, vitae tincidunt odio molestie at. Donec consectetur feugiat interdum. Quisque pulvinar felis a tortor fringilla consectetur.
-                </p>
+        <div class="sobre-nosotros">
+            <div class="sobre-nosotros__imagen">
+                <img src="img/nosotros.jpg" alt="Imagen Nosotros">
+            </div>
+
+            <div class="sobre-nosotros__texto">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure praesentium suscipit, fugit neque corporis doloribus blanditiis sequi sapiente quaerat maxime ea eaque aperiam modi vero! Dolorem perferendis ipsam autem eligendi.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat magni consequuntur eos deleniti at obcaecati dicta hic ratione a delectus pariatur, ad ipsa officiis laudantium, ut vitae voluptatum corrupti quibusdam.</p>
             </div>
         </div>
     </main>
 
-
-    <footer class="site-footer">
+    <footer class="footer">
         <div class="contenedor">
             <div class="barra">
-                <p class="no-margin">Blog<span>DeCafe</span></p>
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DelCafe</span></h1>
+                </a>
 
                 <nav class="navegacion">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="cursos.html">Cursos</a>
-                    <a href="contacto.html">Contacto</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                 </nav>
             </div>
         </div>
     </footer>
-
 </body>
-
 </html>
